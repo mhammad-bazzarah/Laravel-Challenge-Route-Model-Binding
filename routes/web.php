@@ -26,3 +26,4 @@ Route::get('transactions/{transaction}/export',
     ->name('transactions.duplicate');
 
 Route::resource('transactions', TransactionController::class);
+
